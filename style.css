@@ -103,10 +103,10 @@ ul, ol {
 body, input, textarea {
 }
 a:link, a:visited {
-	color: #F1505A;
+	color: #f0bf00;
 }
 a:hover, a:active {
-	color: #F1505A;
+	color: #f0bf00;
 	text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -266,7 +266,7 @@ ul#menu-main > li > a:hover {
 ---------------------------------------------------------------------------------------------------------- */
 #headerwrap {
 	width: 100%;
-	background: url(../img/top-bg.png) #44443D no-repeat center center fixed;
+	background: url(../img/top-bg.jpg) #44443D no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -673,12 +673,15 @@ section#contacto{
 }
 /* contacto Form */
 
+
 #theme-form {
 	position: relative;
 	z-index: 999;
+
 }
 #theme-form input[type=text], .cform-form textarea {
 	background: rgba(227, 231, 228, 1);
+
 	font-family: 'Open Sans', sans serif;
 	border: 0;
 	text-align: left;
@@ -769,13 +772,11 @@ footer {
 	text-align: center;
 	color: #1a1a1a;  /* COLOR FOOTER  r35 g 35 b 30*/
 
-	font-weight: bold;
-}
-#menu-main-footer{
-	text-align: left;
+	#menu-main-footer{
+		text-align: left;
 
+	}
 }
-
 footer p {
 	margin-top: -130px;
 }
@@ -785,7 +786,10 @@ footer p {
 
 }
 /* ----------------------------------------------------------------------------------------------------------
-07 Bootstrap Carousel ------------------------------------------------------------
+07 Bootstrap Carousel -----------------------------------------------------------
+
+
+-
 ---------------------------------------------------------------------------------------------------------- */
 
     .carousel-caption {
@@ -1044,7 +1048,7 @@ footer p {
 }
 
 		/* Feature */
-		#feature-badge {
+#feature-badge {
 /*	display: none; */
 		}
 
